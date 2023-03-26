@@ -1,0 +1,26 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="HTML,JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Array to Button</title>
+	
+	
+	</head>
+	
+	<body>
+		<script>
+			var a=["Queen","King","Rook","Bishop","Knight","Pawn"]	
+			
+			a.forEach(function(val){
+				var x=document.createElement("button");
+				x.innerText=val;
+				document.body.appendChild(x);
+			})
+				
+			
+		</script>
+	</body>
+</html>
